@@ -1,10 +1,18 @@
 import './App.css';
-import { Greet } from './components/Greet';
+import Greet from './components/FunctionalComponent'
+import Welcome from './components/ClassComponent';
 
 function App() {
   return (
     <div className="App">
-     <Greet />
+      <Greet name ="Ahmad"/>
+      <Greet name ="Hussain"/>
+      <Greet name ="Fasih"/>
+      <hr/>
+      <Welcome name ="Ahmad" />
+      <Welcome name ="Hussain" />
+      <Welcome name ="Fasih" />
+   
     </div>
   );
 }
