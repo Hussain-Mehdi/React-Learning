@@ -14,6 +14,12 @@ class Usergreeting extends Component {
 
   render() {
 
+    return(
+        this.state.isLoggedIn?
+        <div><h2>User LoggedIn</h2></div>:
+        <div><h2>User not LoggedIn</h2></div>
+    )
+
     // let message 
 
     // if(this.state.isLoggedIn)
