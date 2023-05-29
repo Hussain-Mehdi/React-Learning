@@ -8,6 +8,8 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import Usergreeting from './components/Usergreeting';
+import Films from './components/Films';
+import FilmList from './components/FilmList';
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
 
 {/* <ParentComponent /> */}
 
-<Usergreeting/>
+{/* <Usergreeting/> */}
+<Films />
+
 
     </div>
   );
