@@ -480,6 +480,8 @@ function Films(props) {
 <th>Name</th>
 <th>Skill</th>
 <th>Experience</th>
+<th>Award</th>
+<th>Rate</th>
             </tr>
           
             <>
@@ -496,6 +498,8 @@ function Films(props) {
                     </dir></td>
                 <td>{film.Language}</td>
                 <td>{film.Writer}</td>
+                <td>{film.Awards}</td>
+                <td>{film.Rated}</td>
             </tr>
                 )
             })}

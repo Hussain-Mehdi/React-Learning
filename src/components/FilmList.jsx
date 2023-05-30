@@ -1,6 +1,6 @@
 
 import Film from './Films'
-
+import Film1 from './Film1'
 function FilmList() {
 
     const filmData=[
@@ -476,7 +476,7 @@ function FilmList() {
       ]
 
       return(
-        filmData.map(film=><Film image={film.Images[2]} name={film.Title} genre={film.Genre} language={film.Language} writer={film.writer} />)
+        filmData.map(film=><Film1 film={film} Key={Film.Title} />)
       )
     
 }

@@ -1,5 +1,5 @@
 .maintable{
-    width: 900px;
+    width: 1000px;
     background-color: white;
     margin-left: 200px;
 }
@@ -23,6 +23,11 @@ tr td{
     border-bottom: 2px solid rgba(219, 219, 219, 0.774)  ;
     
 }
+
+/* tr:hover{
+    transition:1s ease-in-out;
+    transform: scale(1.1);
+} */
 
 .mainrow{
     display: inline-block;
