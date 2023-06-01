@@ -1,5 +1,5 @@
 import '../components/Personstyle.css'
-function Films(props) {
+function Films() {
 
     const filmData=[
         {

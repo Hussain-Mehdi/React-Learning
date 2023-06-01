@@ -476,7 +476,7 @@ function FilmList() {
       ]
 
       return(
-        filmData.map(film=><Film1 film={film} Key={Film.Title} />)
+        filmData.map(film=><Film film={film} Key={Film.Title} />)
       )
     
 }

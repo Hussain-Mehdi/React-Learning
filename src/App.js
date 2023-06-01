@@ -8,15 +8,17 @@ import './App.css';
 // import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
 // import Usergreeting from './components/Usergreeting';
-// import Films from './components/Films';
+import Films from './components/Films';
  import FilmList from './components/FilmList';
 // import ButtonDot from './components/Button';
 // import Button from '@mui/material/Button';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-     <FilmList/>
+     {/* <Films/> */}
+     <Form/>
     </div>
   );
 }
